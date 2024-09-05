@@ -1,3 +1,3 @@
-#Seungwon Lee#
+#Seungwon Lee
 Hi I am *SeoulTech* student
 
