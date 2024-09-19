@@ -21,8 +21,9 @@ def analyze_data(data_1d):
     mean = 0
     var = 0
     median = 0
-    var = sum((x - mean) ** 2 for x in data_1d) / len(data_1d)
     mean = sum(data_1d) / len(data_1d)
+
+    var = sum((x - mean) ** 2 for x in data_1d) / len(data_1d)
     
     data_sorted = sorted(data_1d)
     n = len(data_sorted)
